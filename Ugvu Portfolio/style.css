@@ -101,12 +101,7 @@ body {
   text-transform: uppercase;
 
   overflow: hidden;
-  /* display: flex;
-  flex-direction: column;
-  align-items: right; */
-  /* align-items: end; */
-  /* justify-content: end; */
-
+ 
   & h4 {
     font-size: 15px;
     font-weight: 500;
@@ -212,9 +207,7 @@ body {
   margin-top: 100px;
   color: white;
   padding: 90px 40px 60px 40px;
-  /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
+
 }
 .about {
   display: flex;

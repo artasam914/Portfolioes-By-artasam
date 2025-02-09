@@ -31,11 +31,7 @@ function circlemove(xscale, yscale) {
     circle.style.transform = `translate(${delts.x}px,${delts.y}px) scale(${xscale},${yscale})`;
   });
 
-  //   document.querySelector(".element").addEventListener("mouseenter",(delts)=>{
-  // gsap.to("#minicircle",{
-  //   scale:4
-  // })
-  //   })
+  
 }
 function homepageAnimation() {
   let tl = gsap.timeline();

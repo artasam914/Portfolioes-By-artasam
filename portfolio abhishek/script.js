@@ -4,7 +4,7 @@ function createSpan() {
     let spanChild = document.createElement("span");
 
     spanParent.classList.add("parent");
-    spanChild.classList.add("child");
+    spanChild.classList.add("child"); 
 
     spanChild.innerHTML = elem.innerHTML;
 

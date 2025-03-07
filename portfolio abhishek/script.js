@@ -9,7 +9,7 @@ function createSpan() {
     spanChild.innerHTML = elem.innerHTML;
 
     spanParent.appendChild(spanChild);
-    elem.innerHTML = "";
+    elem.innerHTML = "";  
 
     elem.appendChild(spanParent);
   });

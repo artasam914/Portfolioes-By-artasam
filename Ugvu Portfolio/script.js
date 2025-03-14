@@ -45,7 +45,7 @@ function homepageAnimation() {
     // and apply gsap (animation),prperties it will same work.  No need Of make another div
 
     y: 0,
-    duration: 1,
+    duration: 1, 
   });
   tl.from(".based", {
     y: 20,

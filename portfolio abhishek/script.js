@@ -5,7 +5,7 @@ function createSpan() {
 
     spanParent.classList.add("parent");
     spanChild.classList.add("child"); 
-
+ 
     spanChild.innerHTML = elem.innerHTML;
 
     spanParent.appendChild(spanChild);
